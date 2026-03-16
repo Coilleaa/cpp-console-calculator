@@ -1,53 +1,109 @@
 # C++ Console Calculator
 
-A console-based calculator written in **C++** that performs a variety of mathematical operations including basic arithmetic, advanced calculations, trigonometry, logarithms, and quadratic equation solving.
+A simple **console-based calculator written in C++** that performs a variety of mathematical operations including arithmetic, algebra, trigonometry, logarithms, and more.
+
+This project was created as a **practice project for learning C++ programming, input validation, and mathematical computation**.
+
+---
 
 ## Features
 
-### Basic Math
-- Addition
-- Subtraction
-- Multiplication
-- Division
+### Basic Arithmetic
 
-### Advanced Math
-- Modulo
-- Absolute value
-- GCD (Greatest Common Divisor)
-- LCM (Least Common Multiple)
-- Factorial
+* Addition
+* Subtraction
+* Multiplication
+* Division
 
-### Exponential
-- Power calculation (a^b)
+### Advanced Operations
+
+* Modulo
+* Absolute Value
+* GCD (Greatest Common Divisor)
+* LCM (Least Common Multiple)
+* Factorial
+
+### Exponentiation
+
+* Power calculation (a^b)
 
 ### Roots
-- Square root
-- Cube root
+
+* Square root
+* Cube root
 
 ### Algebra
-- Quadratic equation solver (ax² + bx + c = 0)
+
+* Solve quadratic equations:
+  ax² + bx + c = 0
 
 ### Trigonometry
-- sin(x)
-- cos(x)
-- tan(x)
-- cot(x)
 
-Supports **Degree** and **Radian** modes.
+* sin(x)
+* cos(x)
+* tan(x)
+* cot(x)
 
-### Logarithm
-- logₐ(x)
-- log10(x)
-- ln(x)
+Supports both **Degree** and **Radian** input modes.
+
+### Logarithms
+
+* logₐ(x)
+* log10(x)
+* ln(x)
+
+---
 
 ## Input Validation
 
-The program includes robust input validation:
-- Prevents invalid numeric input
-- Handles division by zero
-- Checks domain errors for logarithm and trigonometric functions
+The program includes validation to handle:
+
+* Invalid numeric inputs
+* Division by zero
+* Undefined trigonometric values
+* Invalid logarithm domains
+* Negative factorial inputs
+
+---
 
 ## How to Compile
 
+Using **g++ compiler**:
+
 ```bash
-g++ calculator.cpp -o calculator
+g++ main.cpp -o calculator
+```
+
+---
+
+## How to Run
+
+### Windows
+
+```bash
+calculator.exe
+```
+
+### Linux / Mac
+
+```bash
+./calculator
+```
+
+---
+
+## Project Structure
+
+```
+cpp-console-calculator
+│
+├── main.cpp
+├── README.md
+├── .gitignore
+```
+
+---
+
+## Author
+
+Created as a learning project while studying **C++ programming and mathematical algorithms**.
